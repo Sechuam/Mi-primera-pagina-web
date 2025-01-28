@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - José Juan Lepe</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <header>
+    <nav>
+      <div class="logo">Jose Juan Lepe</div>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Hi, I'm <span>José Juan Lepe Pérez</span></h1>
+      <p>Full Stack Developer | Minimalist | Tech Enthusiast</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <section class="pantallax">
+    <h2>Bienvenido a mi Portfolio
+      <p>Explora mis proyectos, habilidades y más</p>
+    </h2>
+
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, my name is Jose Juan Lepe Perez, and welcome to my portfolio as a web developer! I’m currently studying for a
+      Higher Technician Degree in Web Application Development while actively working on my own projects to enhance my
+      skills and creativity.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        <div class="project-info">
+          <h3>Project 1</h3>
+          <p>Short description of the project. Click to learn more.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        <div class="project-info">
+          <h3>Project 2</h3>
+          <p>Short description of the project. Click to learn more.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        <div class="project-info">
+          <h3>Project 3</h3>
+          <p>Short description of the project. Click to learn more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>React</li>
+      <li>MySQL</li>
+      <li>Postgre</li>
+      <li>Postman</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 José Juan Lepe Pérez. All rights reserved.</p>
+  </footer>
+
+  <script>
+    particlesJS.load('particles-js', 'assets/js/particles-config.json', function () {
+      console.log('particles.js loaded - callback');
+    });
+  </script>
+</body>
+
+</html>
